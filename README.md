@@ -1,7 +1,3 @@
-Here’s an updated README you can copy-paste and tweak as needed:
-
----
-
 # AirCue (GesturePlay-YT)
 
 Control YouTube videos and screen brightness using **mid-air hand gestures** with Python and OpenCV.
