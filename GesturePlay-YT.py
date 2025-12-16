@@ -156,14 +156,14 @@ while True:
                             cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 0, 255), 2)
                 time.sleep(0.5)
 
-            # 🔆 Brightness UP: thumb + index up (others down)
+            # Brightness UP: thumb + index up (others down)
             elif fingers == [1, 1, 0, 0, 0]:
                 brightness_up()
                 cv2.putText(img, "Brightness +", (10, 70),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
                 time.sleep(0.7)
 
-            # 🔅 Brightness DOWN: thumb + index + middle up
+            # Brightness DOWN: thumb + index + middle up
             elif fingers == [1, 1, 1, 0, 0]:
                 brightness_down()
                 cv2.putText(img, "Brightness -", (10, 70),
